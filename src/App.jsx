@@ -12,6 +12,9 @@ function App() {
     <>
       <Navbar />
       <Header />
+      {/* Guarda il sito di https://www.behance.net/gallery/194808573/Digital-Agency-Protifolo-Website-UI-Design?tracking_source=search_projects|blog+web+design+blogging+website&l=8
+        Per continuare la realizzazione di questo website. 
+      */}
     </>
   )
 }
