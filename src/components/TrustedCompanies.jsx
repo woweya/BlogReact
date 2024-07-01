@@ -13,7 +13,7 @@ function Companies(){
 
     return (
         <>
-          <h1 className="text-gray-400">Trusted by 80+ businesses</h1>
+          <h1 className="text-gray-400">Trusted by 80+ buisiness</h1>
           <ul className='flex justify-center items-center gap-10 mb-10'>
             
             {/* Generazione dinamica utilizzando un map di oggetti per la visualizzazione delle immagini di Aziende. */}

@@ -19,7 +19,7 @@ function Header() {
                 </svg>
             </button>
             <Avatar />
-            <div className="flex flex-col text-start justify-start items-start">
+            <div className="flex flex-col text-start justify-start items-start clients-satisfied">
                 <h1 className='text-md font-normal text-start'>1000+</h1>
                 <p className='text-sm font-light text-left text-gray-400'>Satisfied clients</p>
             </div>

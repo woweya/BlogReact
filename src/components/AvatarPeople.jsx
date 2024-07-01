@@ -2,7 +2,7 @@ import './AvatarPeople.css'
 function AvatarPeople() {
     return (
         <div className="avatar-group -space-x-3 rtl:space-x-reverse">
-        <div className="avatar border-purple-500">
+        <div className="avatar">
           <div className="w-7 h-7">
             <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
           </div>

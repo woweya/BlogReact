@@ -1,4 +1,4 @@
-.avatar-group :where(.avatar) {
-    border-width: 2px;
-    border-color: #5C45FD;
+.avatar {
+    border-width: 2px!important;
+    border-color: #5C45FD!important;
 }
