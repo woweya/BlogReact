@@ -1,0 +1,33 @@
+*{
+    font-weight: 500;
+}
+
+
+nav > ul > li {
+    cursor: pointer;
+    color: white;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav > ul > li::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0; /* Inizialmente larghezza zero per l'animazione di espansione */
+    height: 2px;
+    background-color: transparent;
+    transition: width 0.3s ease; /* Solo animazione della larghezza */
+}
+
+nav > ul > li:hover::after {
+    width: 100%; /* Larghezza al passaggio del mouse */
+    background-color: #892fff; /* Colore della linea al passaggio del mouse */
+}
+
+
+nav{
+    border-bottom: 1px solid #ffffff21;
+}
+
