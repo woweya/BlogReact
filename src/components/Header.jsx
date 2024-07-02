@@ -29,7 +29,7 @@ function Header() {
             </div>
         </div>
         </div>
-        <hr className='w-full mx-auto my-10 border-[#ffffff21]'/>
+        <hr className='w-full mx-auto border-[#ffffff21]'/>
         </>
     )
 }

@@ -18,11 +18,16 @@ h1{
     -moz-text-fill-color: transparent;    /* Compatibilità con Firefox (non necessario ma incluso per completezza) */
 }
 
+
+.home{
+    height: 88vh;
+}
 .header-grid-background {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0.062) 0.5px, transparent 0.5px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.089) 1px, transparent 1px);
     background-size: 400px 350px; /* Dimensioni della griglia */
+    height: 88vh;
 }
 
 .clients-satisfied{
