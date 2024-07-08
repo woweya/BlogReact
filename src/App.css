@@ -1,90 +1,94 @@
 /* App.css */
 .my-atropos {
-    position: relative;
-    width: 100%;
-    height: 600px; /* Altezza fissa per l'esempio */
-    
-  }
+  position: relative;
+  width: 100%;
+  height: 600px; /* Altezza fissa per l'esempio */
+}
 
-  .second-atropos {
-    position: relative;
-    width: 100%;
-    height: 600px; /* Altezza fissa per l'esempio */
-    
-  }
+.second-atropos {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Altezza fissa per l'esempio */
+}
 
-  .third-atropos {
-    position: relative;
-    width: 100%;
-    height: 600px; /* Altezza fissa per l'esempio */
-    
-  }
+.third-atropos {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Altezza fissa per l'esempio */
+}
 
-  .box-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-  
-  .box-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    transform-style: preserve-3d;
-    filter:brightness(0.5); ;
-  }
-  
-  .box-bg .box-img {
-    transform: scale(1.1);
-  }
-  
-  .box-middle, .box-front {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
-    left: 42%;
-  }
-  
-  
-  .box-front {
-    font-size: 24px;
-    color: white;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.815);
-    pointer-events: none;
-    bottom: 0;
-    left: 0;
-  }
-  
-  .box-middle{
-    top: 30%;
-  }
-  
-  .Atros-section {
-    background: rgb(7, 0, 41);
-    background: linear-gradient(-92deg, rgba(7, 0, 41, 1) 12%, rgba(36, 0, 69, 1) 72%);
+.box-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.box-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform-style: preserve-3d;
+  filter: brightness(0.5);
+}
+
+.box-bg .box-img {
+  transform: scale(1.1);
+}
+
+.box-middle,
+.box-front {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 42%;
+}
+
+.box-front {
+  font-size: 24px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.815);
+  pointer-events: none;
+  bottom: 0;
+  left: 0;
+}
+
+.box-middle {
+  top: 30%;
+}
+
+.Atros-section {
+  /*  background: rgb(7, 0, 41);
+    background: linear-gradient(180deg, rgba(7, 0, 41, 1) 12%, #161616 72%);
 
     min-height: 100vh; /* Altezza minima della sezione */
-  }
-  
-  .grid-background {
-    position: absolute;
-    width: 100%;
-    height: 150vh;
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.062) 0.5px, transparent 0.5px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.089) 1px, transparent 1px);
-    background-size: 400px 300px; /* Dimensioni della griglia */
-  }
+    background: rgb(9,1,38);
+    background: -moz-linear-gradient(0deg, rgba(9,1,38,1) 46%, rgba(10,0,44,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(9,1,38,1) 46%, rgba(10,0,44,1) 100%);
+    background: linear-gradient(0deg, rgba(9,1,38,1) 46%, rgba(10,0,44,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#090126",endColorstr="#0a002c",GradientType=1);
+}
 
-  .atropos-shadow{
-    box-shadow: 0 0 60px 60px rgba(108, 4, 206, 0.5);
-  }
+.grid-background {
+  position: absolute;
+  width: 100%;
+  height: 150vh;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.062) 0.5px,
+      transparent 0.5px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.089) 1px, transparent 1px);
+  background-size: 400px 300px; /* Dimensioni della griglia */
+}
 
-  .box-front>p{
-    width: 70%;
-  }
+.atropos-shadow {
+  box-shadow: 0 0 60px 60px rgba(108, 4, 206, 0.5);
+}
+
+.box-front > p {
+  width: 70%;
+}

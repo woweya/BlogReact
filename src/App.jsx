@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Atro from './components/Atro'
+import PricingCards from './components/PricingCards'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -17,6 +19,9 @@ function App() {
         Per continuare la realizzazione di questo website. 
       */}
       <Atro />
+
+      <PricingCards />
+        <Footer />
     </>
   )
 }

@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className='Atros-section w-full'>
        <div className="grid-background"></div>
-       <div className="relative">
+       <div className="relative py-5">
        <p className='text-xl tracking-[0.4rem] text-purple-400 font-semibold text-center absolute left-[38.3%]'>SERVICES</p>
        <h1 className='text-5xl font-semibold text-center py-10'>What you would get</h1>
        </div>
